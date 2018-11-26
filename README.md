@@ -1,5 +1,7 @@
 # FruityD
 
+![FruityD](https://i.imgur.com/NITR8cb.png)
+
 FruityD is a complete port of the FL Studio SDK (C++ to D.)
 
 The current port is a 1-1 port, but in the future it'll have a more "D" feel to it.
