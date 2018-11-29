@@ -8,6 +8,15 @@ version (Windows)
   alias DWORD = uint;
   alias QWORD = ulong;
 
+  alias ULONG = QWORD;
+  alias LONG = long;
+
+  alias PVOID = void*;
+  alias HANDLE = PVOID;
+  alias HINSTANCE = HANDLE;
+  alias HRESULT = LONG;
+  alias HWND = HANDLE;
+
   align(1) struct WAVEFORMATEX
   {
     align(1):
